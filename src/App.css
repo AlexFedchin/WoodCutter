@@ -28,13 +28,13 @@ h1 {
 
 h2 {
   color: #555;
-  margin: 20px 0 15px 0;
+  margin-bottom: 10px;
   font-size: 1.5em;
 }
 
 h3 {
   color: #666;
-  margin: 15px 0 10px 0;
+  margin-bottom: 5px;
   font-size: 1.1em;
 }
 
@@ -151,6 +151,21 @@ h3 {
   background-color: #da190b;
 }
 
+.btn-export {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-export:hover {
+  background-color: #e68900;
+}
+
 .error {
   background-color: #ffebee;
   color: #c62828;
@@ -162,27 +177,27 @@ h3 {
 
 .results-section {
   background-color: #fafafa;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
 }
 
 .beams-visualization {
   display: grid;
-  gap: 20px;
+  gap: 10px;
   margin: 20px 0;
 }
 
 .beam-container {
   background-color: white;
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 6px;
   border: 1px solid #ddd;
 }
 
 .beam-visual {
   display: flex;
-  height: 80px;
+  height: 40px;
   border-radius: 4px;
   overflow: hidden;
   border: 2px solid #333;
@@ -263,6 +278,6 @@ h3 {
   }
 
   .beam-visual {
-    height: 60px;
+    height: 40px;
   }
 }
