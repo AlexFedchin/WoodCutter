@@ -333,7 +333,7 @@ export default function App() {
                       </div>
                     )}
                   </div>
-                  {/* <div className="beam-info">
+                  <div className="beam-info">
                     <p>
                       Used:{" "}
                       <strong>{beam.originalLength - beam.remaining}mm</strong>{" "}
@@ -348,13 +348,13 @@ export default function App() {
                     <p>
                       Waste: <strong>{beam.remaining}mm</strong>
                     </p>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             ))}
           </div>
 
-          {/* <div className="summary">
+          <div className="summary">
             <h3>Summary</h3>
             <p>
               Total material used:{" "}
@@ -386,7 +386,7 @@ export default function App() {
                 %
               </strong>
             </p>
-          </div> */}
+          </div>
         </section>
       )}
     </div>
